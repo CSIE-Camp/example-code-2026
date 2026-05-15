@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Button !!!</title>
+</head>
+<body>
+    <div id = "Text" style="font-size: 100px;">:D</div>
+    <button onclick="F()">放大</button>
+
+    <script>
+
+        let Sz = 100;
+
+        function F(){
+            const obj = document.body.querySelector("#Text"); //取出 <div id = "Text">
+            Sz += 10;
+            obj.style.fontSize = Sz + "px"; //改變 <div id = "Text">:D</div> 字體大小
+        }
+    </script>
+</body>
+</html>
