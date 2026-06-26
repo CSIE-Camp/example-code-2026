@@ -1,0 +1,234 @@
+* {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: #eec540;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+header ul {
+    /*background-color: aqua;*/
+    position: absolute;
+    right: 5vw;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+header li {
+    /*background-color: aliceblue;*/
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header a {
+    /*
+    text-decoration: 
+    color: 
+    */
+}
+
+header a:hover {
+    /*
+    text-decoration: 
+    color: 
+    */
+}
+.slogan {
+    /* Tak 1 */
+    /*
+    font-size:
+    font-style:
+    font-weight:
+    background:
+    */
+}
+.刪除線 {
+    /* text-decoration: */
+}
+
+header h1 {
+    position: absolute;
+    left: 3vw;
+    top: 0px;
+    top: 0;
+    line-height: 100px;
+}
+
+nav {
+    /* Task 2 */
+    /*position: */
+    width: 100%;
+    background-color: rgb(4, 71, 49);
+    z-index: 100;
+    cursor: pointer;
+}
+
+.menu {
+    position: relative;
+}
+
+.menu summary {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.submenu {
+    /* Task 2 */
+    /*background-color: hsl(160, 91%, 18%);*/
+}
+
+.menu[open] .submenu {
+    max-height: 100vh;
+    opacity: 1;
+}
+
+.menu[open] .submenu a {
+    /* Task 4 */
+}
+
+@keyframes bounce {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    75% {
+        opacity: auto;
+        transform: translateY(5px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.submenu li a {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    /* Task 2 */
+    /*內邊距、上邊界...等*/
+}
+
+
+section {
+    padding: 1%;
+}
+
+@keyframes left-slide-in {
+    0% {
+        opacity: 0%;
+        transform: translateX(-20%);
+    }
+
+    100% {
+        opacity: 100%;
+        transform: translateX(0);
+    }
+}
+
+@keyframes right-slide-in {
+    0% {
+        opacity: 0%;
+        transform: translateX(20%);
+    }
+
+    100% {
+        opacity: 100%;
+        transform: translateX(0);
+    }
+}
+
+.開頭 {
+    background-color: rgb(252, 242, 216);
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.開頭 .img {
+    width: 50%;
+    height: auto;
+    animation: left-slide-in 0.5s ease-out 0.2s both alternate;
+}
+
+.加大 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.文字 {
+    font-size: 17px;
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: left-slide-in 0.5s ease-out 0.2s both alternate;
+}
+
+.出發 {
+    background-color: #3a289c;
+    height: fit-content;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.出發 .img {
+    width: 70vw;
+    height: auto;
+    animation: right-slide-in 0.5s ease-out 0.4s both alternate;
+}
+
+.出發 a {
+    color: white;
+    text-decoration: none;
+    border-radius: 5%;
+    padding: 5px;
+    border: 2px solid rgb(189, 189, 189);
+    animation: right-slide-in 0.5s ease-out 0.4s both alternate;
+}
+
+footer {
+    background-color: bisque;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 5px;
+    gap: 5px;
+}
+
+kbd {
+    background-color: rgb(236, 236, 236);
+    border-radius: 5%;
+    padding: 5px;
+    border: 2px solid rgb(189, 189, 189);
+}
+
+.eat {
+    color: rgb(0, 0, 0);
+    padding: 4px 5px;
+    border-radius: 10px;
+}
